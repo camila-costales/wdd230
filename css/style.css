@@ -3,16 +3,25 @@ img {
 }
 .header{
   background-color: pink;
-  padding: 50px;
+  padding: 30px;
+  box-shadow: 10px 10px;
+
 }
 h1{
   color: white;
 }
 .footer{
   background-color: pink;
-  padding: 30px;
+  box-shadow: 10px 10px;
+  padding: 5px;
   text-align: center;
+  color: white;
+  
 }
 .caption{
   font-size: 10px;
+}
+header, main, footer{
+  margin: 1.25rem auto;
+  max-width: 700px;
 }

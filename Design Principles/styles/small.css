@@ -40,3 +40,10 @@ h2{
 h3, a, img,p{
     margin: 15px;
 }
+img{
+    margin:50px;
+    padding:10px
+}
+a{
+    padding:100px
+}

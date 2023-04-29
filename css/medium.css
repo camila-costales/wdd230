@@ -1,0 +1,6 @@
+@media only screen and (min-width: 32.5em) {
+    header, main, footer{
+        margin: 1.25rem auto;
+        max-width: 500px;
+      }
+}

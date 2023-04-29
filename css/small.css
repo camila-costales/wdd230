@@ -2,20 +2,20 @@ img {
   border-radius: 50%;
 }
 .header{
-  background-color: pink;
+  background-color: rgb(252, 187, 159);
   padding: 30px;
   box-shadow: 10px 10px;
 
 }
 h1{
-  color: white;
+  color: black;
 }
 .footer{
-  background-color: pink;
+  background-color: rgb(252, 187, 159);
   box-shadow: 10px 10px;
   padding: 5px;
   text-align: center;
-  color: white;
+  color: black;
   
 }
 .caption{

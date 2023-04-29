@@ -1,0 +1,14 @@
+@media only screen and (min-width: 65.5em) {
+    .first-sec{
+        grid-column: 1/2;
+    }
+    .second-sec{
+        grid-column: 2/3;
+    }
+    .third-sec{
+        grid-column: 3/4;
+    }
+    .section-grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

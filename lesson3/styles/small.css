@@ -1,0 +1,55 @@
+/*
+Colors:
+black
+#6A7B76 grey
+#8B9D83 green
+#BEB0A7 pink beige
+#E2856E salmon
+*/
+.header{
+    background-color: #8B9D83;
+    color: black;
+    text-align: center;
+    margin-top:10px;
+    padding: 7px
+}
+nav {
+    list-style-type: none;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #E2856E;
+    text-align: center;
+  }
+li a {
+    display: block;
+    padding: 3px;
+    text-decoration: none;
+    color:white;
+  }
+.nav-grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    margin-top: 0px
+}
+p, ul{
+    font-size: 12px;
+}
+.foot{
+    background-color:#8B9D83 ;
+    color: black;
+    margin:10px;
+    padding: 7px;
+    text-align: center;
+}
+.section-grid{
+    margin: 20px;
+}
+h3{
+    text-decoration: underline;
+    color:#E2856E
+}
+main{
+    margin:20px
+}
+.ty

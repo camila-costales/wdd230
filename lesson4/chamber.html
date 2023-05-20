@@ -9,38 +9,66 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <link rel="shortcut icon" href=icon.ico>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
 </head>
 <body>
     <header>
-        <div class="header">
-            <h1>Website Planning Documents</h1>
-            <h3>Lesson 03</h3>
+        <div class="header-grid">
+            <img src="images/logo.png" alt="logo">
+            <section id="tittle"> 
+                <h1>Quito Together</h1>
+                <h4>Chamber of Commerce</h4>
+            </section>
+  
         </div>
-    </header>
-    <nav>
-        <a href="indexplan.html">Home</a>  
-        <a href="target-audience.html">Target Audience</a>  
-        <a href="design.html">Design</a>  
-    </nav>
-
-    <main class="section-grid">
-        <section class="first-sec">
-            <h2>Quito Chamber Company</h2>
-            <h3>Site Name</h3>
-            <p>Quito Together</p>
-            <h3>Site Purpose</h3>
-            <p>The purpose of your website, as a Chamber of Commerce for Quito, Ecuador, is to serve as a comprehensive resource for businesses, residents, and visitors in the city. The website will aim to promote economic growth and development in Quito by providing information and resources for local businesses, as well as connecting them with potential customers and partners. Additionally, the website may include information on local events, news, and community services to help promote a sense of community and engagement among residents and visitors alike. Ultimately, the goal of the website is to showcase the vibrant and diverse culture of Quito, while also providing valuable resources and information for those who live, work, or visit the city.</p>
-            <h3>Domain Name</h3>
-            <p>quitotogether.com</p>
-            
-            <img src="images/1.png" alt="Business Screenshot">
-            
+        <nav>
+            <button id="hamButton">&#9776;</button>
+            <ul class="navigation">
+                <li><a href="#" title="Home">Home</a></li>
+                <li><a href="#" title="About">Community</a></li>
+                <li><a href="#" title="Service">Events</a></li>
+                <li><a href="#" title="History">Calendar</a></li>
+                <li><a href="#" title="Contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section id="time">
+            <p> Today's date: <span id="p1"></span></p>
         </section>
+    
+    </header>   
+    <main class="main-grid">
+        <div id="content1">Hero with name call to action</div>  
+        <div id="content2"> Event </div>         
+        <div id="content3"> Weather </div>  
+        <div id="content4"> New Release </div>  
+        <div id="content5"> 
+            <section id="spotlight1"> 
+                <div id="textspot"> Spotlight 1</div>
+            </section>   
+            <section id="spotlight2"> 
+                <div id="textspot"> Spotlight 2</div>
+            </section>    
+        </div>         
+        
     </main>
     <footer>
         <div class="foot">
-            <p> &copy; 2023 - Camila Costales - Rexburg. This page was last updated on: <span id="lastUpdateDate"></span></p>
+            <section id="foot1">
+                <h4>Quito Together</h4>
+                <br>
+                <p>Address will be here</p>
+                <p>email@gmail.com</p>
+                <p>Phone number</p>
+                <p>Location</p>
+                <br>
+            </section>
+            <section id="foot2">
+                <p> &copy; Quito Together Chamber </p>
+                <h4>Camila Costales</h4>
+                <h4>WDD 230</h4>
+                <p> This page was last updated on: <span id="lastUpdateDate"></span></p>
+            </section>
+        
         </div>
         <script src="scripts/script.js"></script>
     </footer>

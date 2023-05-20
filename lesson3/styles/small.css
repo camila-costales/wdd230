@@ -5,7 +5,14 @@ black
 #8B9D83 green
 #BEB0A7 pink beige
 #E2856E salmon
+
 */
+body{
+    display: block;
+    max-width: 900px;
+}
+
+
 .header{
     background-color: #8B9D83;
     color: black;
@@ -21,7 +28,6 @@ nav {
     text-align: center;
   }
 li a {
-    display: block;
     padding: 3px;
     text-decoration: none;
     color:white;
@@ -32,13 +38,13 @@ li a {
     justify-items: center;
     margin-top: 0px
 }
+
 p, ul{
     font-size: 12px;
 }
 .foot{
     background-color:#8B9D83 ;
     color: black;
-    margin:10px;
     padding: 7px;
     text-align: center;
 }
@@ -52,4 +58,21 @@ h3{
 main{
     margin:20px
 }
-.ty
+.typography-box {
+    border: solid 1px black;
+    text-align: center;
+    padding: 1em;
+    margin:10px;
+    max-width: 300px;
+    min-width: 170px;
+}
+.example{
+    padding-top: 1em;
+}
+span {
+    display: block;
+    width: 100%;
+}
+img{
+    min-width: 1px;
+}

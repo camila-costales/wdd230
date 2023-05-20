@@ -1,0 +1,19 @@
+@media only screen and (min-width: 32.5em) {
+    nav-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .typography-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0px;
+        margin: 50px;
+    }
+    .nav-grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        margin-top: 0px
+    }
+
+}

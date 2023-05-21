@@ -51,9 +51,10 @@
     }
     .foot{
         display: grid;
-        padding-top: 10px;
+        padding-top: 15px;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr ;
+        grid-template-rows: 1fr 0.5fr ;
+        row-gap: 10px;
     }
     #foot1{
         grid-row: 1/2;

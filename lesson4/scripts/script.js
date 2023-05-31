@@ -31,4 +31,17 @@ var format = day + '/' + month + '/' + year;
 document.getElementById("p1").innerHTML = format;
 
 
+// Get current date
+var currentDate = new Date();
 
+// Check Monday or Tuesday
+if (currentDate.getDay() === 1 || currentDate.getDay() === 2) {
+    // Create the banner element
+    var banner = document.createElement('div');
+    banner.id = 'banner';
+    banner.innerHTML = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 8:00 p.m.';
+	// Add the banner on top
+	document.body.insertBefore(banner, document.body.firstChild);
+    }
+
+	

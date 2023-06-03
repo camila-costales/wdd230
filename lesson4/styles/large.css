@@ -52,7 +52,7 @@
         display: grid;
         grid-row: 3/4;
         grid-column: 1/2;
-        padding-bottom: 100px;
-        border: solid 1px rgb(152, 152, 152);
+        padding:15px;
+        border: solid 1px #BEB0A7;
     }
 }

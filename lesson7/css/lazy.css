@@ -1,0 +1,30 @@
+
+
+  header {
+    color: #fa9380;
+    text-align: center;
+  }
+  
+  
+  main {
+    margin: auto;
+    max-width: 300px;
+  }
+  
+  body {
+    max-width: 35rem;
+    margin: 0 auto;
+    display: grid;
+    grid-auto-rows: auto;
+    justify-items: center;
+    background-color: #ebebfa;
+  }
+  
+  img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+  img {
+    filter: blur(0em);
+    transition: filter 0.15s;
+  }

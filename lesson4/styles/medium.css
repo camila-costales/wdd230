@@ -33,6 +33,7 @@
         display:grid;
         grid-row: 4/5;
         grid-column: 1/5;
+        text-align: center;
     }
     #content2{
         grid-row: 5/6;
@@ -44,9 +45,8 @@
     }
 
     #content6 {
-        background: lightgrey;
-        padding-left: 10px;
-        padding-top: 10px;
+        background: #BEB0A7;
+        padding:15px;
     
     }
     .foot{

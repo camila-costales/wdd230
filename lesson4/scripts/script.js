@@ -44,4 +44,6 @@ if (currentDate.getDay() === 1 || currentDate.getDay() === 2) {
 	document.body.insertBefore(banner, document.body.firstChild);
     }
 
-	
+
+
+

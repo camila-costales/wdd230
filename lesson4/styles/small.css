@@ -18,7 +18,7 @@ black
     background-color: #E2856E;
     margin: 20px auto;
     padding: 5px;
-    border-radius: 10px;
+    
 }
 #tittle{
     text-align: center;
@@ -34,10 +34,13 @@ h1 {
 	text-align: center;
 	font-family: times, serif;
 	font-size: 1.5rem;
-}
+    color: #E2856E;
 
+}
+h2, h3{
+    color: #c4705b;
+}
 nav {
-	max-width: 950px;
 	margin: 10px auto;
 }
 
@@ -114,7 +117,6 @@ nav {
     padding-left: 10px;
     padding-top: 10px;
 
-
 }
 #content2 {
     background: #BEB0A7;
@@ -136,6 +138,7 @@ nav {
     grid-row: 4/5;
     grid-column: 1/4;
     padding:15px;
+    text-align: center;
 
 }
 #content6{
@@ -147,22 +150,33 @@ nav {
     grid-column: 1/4;
     padding:15px;
 }
-.joinbutton{
-    background-color: #8B9D83;
-    border-radius: 15px;
-    width: 90%;
-    border:solid #6A7B76;   
-}
-.joinbutton a {
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
     color: white;
-    font-size: 1rem;
-    text-decoration: none;;
- }
- .joinbutton a:hover {
-    transition: 0.7s ease;
-    color:#6A7B76;
- }
-
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: #E2856E; 
+    border: 2px solid #E2856E;
+  }
+  
+  .button1:hover {
+    background-color: #E2856E;
+    color: white;
+  }
+  
+ 
 
 .main-grid{
     display: grid;
@@ -172,17 +186,27 @@ nav {
     row-gap: 10px;
 
 }
+.content1 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    overflow: hidden;
+    max-width: 20px;
+}
 
 #spotlight1{
     padding:15px;
     border: solid 1px #BEB0A7;
+    text-align: center;
 }
 #spotlight2{
     padding:15px;
     border: solid 1px #BEB0A7;
+    text-align: center;
 }
 #spotlight3{
     display: none;
+    text-align: center;
 }
 #textspot{
     margin-top: 10px;

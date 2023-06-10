@@ -169,6 +169,7 @@ nav {
     background-color: white; 
     color: #E2856E; 
     border: 2px solid #E2856E;
+    margin-bottom: 20px;
   }
   
   .button1:hover {

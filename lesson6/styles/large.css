@@ -1,0 +1,84 @@
+@media only screen and (min-width: 55.5em) {
+
+    body{
+        margin: 0 auto;
+        background-color: #fdf7f3;
+    }
+    .main-grid{
+        display: grid;
+        grid-template-rows: repeat(3, 4fr);
+        grid-template-columns: 2fr 4fr 2fr;
+        margin: 20px;
+        row-gap: 10px;
+        column-gap: 10px;
+        text-align: center;
+    }
+    .logo{
+        max-width: 150px ;
+        margin-left: 100px;
+    }
+
+
+   
+    .spo, .blood{
+        margin: 10px auto;
+        width: 200px;
+        border-radius:10px;
+    }
+
+    #content2{
+        grid-row: 1/2;
+
+        grid-column: 1/2;
+    }
+    #content3{
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+    #content6{
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+    #hero-div{
+        grid-row: 1/3;
+        grid-column: 2/3;
+        margin: 10px auto;
+        position: relative;
+        border: 1px solid rgba(0,0,0,0.5);
+        height: 200px;
+    }
+    .hero-div picture {
+        width: 150px;
+        height: 200px;
+        object-fit: cover;
+        overflow: hidden;
+
+    }
+    #content4{
+        grid-row: 3/4;
+        grid-column: 2/3;
+    }
+    #content5{
+        grid-row: 1/4;
+        grid-column: 3/4;
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: 1fr
+
+        }
+    #spotlight1{
+        grid-row: 1/2;
+        grid-column: 1/2;
+        }
+    #spotlight2{
+        grid-row: 2/3;
+        grid-column: 1/2;
+        }
+    #spotlight3{
+        display: grid;
+        grid-row: 3/4;
+        grid-column: 1/2;
+        padding:15px;
+        border: solid 1px #BEB0A7;
+    }
+}

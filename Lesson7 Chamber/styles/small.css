@@ -250,9 +250,10 @@ img[data-src] {
 
 .discover section {
     background-color: var(--accent2-color);
-    margin: 1rem;
-    padding: 1rem;
+    margin: 1rem ;
+    padding: 1rem ;
     box-shadow: 1px 1px 10px #e69f8d;
+    border-radius: 10px;
 }
 
 .discover h2 {
@@ -262,4 +263,7 @@ img[data-src] {
 
 .discover h3 {
     text-align: center;
+}
+.demographic{
+    margin: 0 auto;
 }

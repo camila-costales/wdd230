@@ -360,3 +360,101 @@ form label.top input:required:valid {
     text-align: center;
     margin: 10px auto;
 }
+
+/* /*
+Colors:
+black
+#6A7B76 grey
+#8B9D83 green
+#BEB0A7 pink beige
+#E2856E salmon
+
+directory page */
+
+.directory-main h3 {
+    padding: 1rem;
+    font-size: 1.5rem;
+    margin-top: 0;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.sort {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.sort button {
+    margin: 0 1rem .75rem 1rem;
+}
+
+.card {
+    height: 90%;
+    width: 90%;
+    background-color: #fce8e3;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px #e69f8d;
+
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	align-items: center;
+}
+
+.grid .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: .5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+}
+
+.grid .card h3 {
+    width: 90%;
+    height: 10%;
+}
+
+.grid .card hr {
+    width: 80%;;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+
+.list .card {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+    grid-template-rows: 1fr;
+	align-items: center;
+}
+
+.list .card img {
+    display: none;
+}
+
+
+.list .card hr {
+    display: none;
+}
+
+.list .card h3 {
+    font-size: .85rem;
+    margin: .25rem;
+}
+
+.list .card p, .list .card a {
+    font-size: .75rem;
+    padding: .5rem;
+}

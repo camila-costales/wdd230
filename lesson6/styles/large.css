@@ -1,9 +1,6 @@
 @media only screen and (min-width: 55.5em) {
 
-    body{
-        margin: 0 auto;
-        background-color: #fdf7f3;
-    }
+
     .main-grid{
         display: grid;
         grid-template-rows: repeat(3, 4fr);
@@ -13,10 +10,7 @@
         column-gap: 10px;
         text-align: center;
     }
-    .logo{
-        max-width: 150px ;
-        margin-left: 100px;
-    }
+
 
 
    
@@ -42,18 +36,14 @@
     #hero-div{
         grid-row: 1/3;
         grid-column: 2/3;
-        margin: 10px auto;
         position: relative;
-        border: 1px solid rgba(0,0,0,0.5);
-        height: 200px;
+        height: auto;
+        width:auto
     }
-    .hero-div picture {
-        width: 150px;
-        height: 200px;
-        object-fit: cover;
-        overflow: hidden;
 
-    }
+
+
+    
     #content4{
         grid-row: 3/4;
         grid-column: 2/3;
@@ -79,6 +69,6 @@
         grid-row: 3/4;
         grid-column: 1/2;
         padding:15px;
-        border: solid 1px #BEB0A7;
+        border: solid 1px #fce8e3;
     }
 }

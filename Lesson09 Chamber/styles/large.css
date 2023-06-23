@@ -12,7 +12,6 @@
     }
 
 
-
    
     .spo, .blood{
         margin: 10px auto;
@@ -40,9 +39,6 @@
         height: auto;
         width:auto
     }
-
-
-
     
     #content4{
         grid-row: 3/4;
@@ -71,7 +67,6 @@
         padding:15px;
         border: solid 1px #fce8e3;
     }
-}
 
 /* discovery page */
     .dis-image {

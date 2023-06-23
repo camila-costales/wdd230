@@ -38,7 +38,6 @@ body{
     justify-self: right;
     margin-right: 150px;
     margin:20px auto
-
 }
 * {
 	margin: 0;
@@ -121,6 +120,8 @@ nav {
 	}
 }
 
+
+
 button {
     padding: 12px 24px;
     background-color: #8B9D83;
@@ -129,8 +130,8 @@ button {
     border-radius: 15px;
     font-size: 20px;
     margin-top: 10px;
-}
 
+}
 #hero-div {
     background: #fce8e3;
     grid-row: 1/2;
@@ -138,28 +139,29 @@ button {
     position: relative;
     height: 100%;
     width: 100%;
+
 }
- #hero-div img {
+.hero-div img {
     object-fit: cover;
     overflow: hidden;
     height: 100%;
     width: 100%;
 }
-
-#hero-div button {
+.hero-div button {
     position: absolute;
-    left: 20px;
     bottom: 20px;
+    right: 20px;
 }
 .mainheader{
     position: absolute;
     bottom: 80px;
     left: 20px;
-    color: black;
+    color: #E2856E;
     font-size: 40px;
     text-align: left;
-
 }
+
+
 #time{
     text-align: center;
 }
@@ -185,6 +187,7 @@ button {
     grid-column: 1/4;
     padding:15px;
     text-align: center;
+
 }
 #content6{
     display:none
@@ -239,13 +242,6 @@ button {
     line-height: 17px;   
     font-size: 10px;
 }
-
-
-
-
-
-
-
 
 /* discover page */
 

@@ -172,6 +172,7 @@ button {
     text-align: center;
 }
 #content3 {
+    
     background: #fce8e3;
     grid-row: 3/4;
     grid-column: 1/4;
@@ -185,6 +186,9 @@ button {
     grid-column: 1/4;
     padding:15px;
     text-align: center;
+}
+.center {
+    margin: auto;
 }
 #content6{
     display:none

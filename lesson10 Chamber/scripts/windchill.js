@@ -18,3 +18,6 @@ document.querySelector(".wind-chill").textContent =
 document.querySelector(".temp").textContent = t+"°F";
 
 document.querySelector(".wind-speed").textContent = "Wind Speed: "+s+" MPH";
+
+
+//current-temp

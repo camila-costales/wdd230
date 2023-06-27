@@ -155,9 +155,13 @@ button {
     position: absolute;
     bottom: 80px;
     left: 20px;
-    color: black;
+    color: #E2856E;
     font-size: 40px;
     text-align: left;
+    background-color: #fce8e3;
+    padding: 5px;
+    border-radius: 5px;
+
 
 }
 #time{
@@ -172,7 +176,7 @@ button {
     text-align: center;
 }
 #content3 {
-    
+
     background: #fce8e3;
     grid-row: 3/4;
     grid-column: 1/4;

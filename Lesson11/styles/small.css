@@ -493,10 +493,10 @@ directory page */
 /* Contact Page */
 .contact h2, h3, h4, p{
 text-align: center;
-margin: 10px;
+margin: 50px;
 }
 .contact{
-    padding-left: 10px auto
+    padding-left: 50px auto
 }
 
 
@@ -510,7 +510,7 @@ label, input, textarea {
 ul {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 0; 
 }
 
 li {

@@ -493,7 +493,9 @@ directory page */
 /* Contact Page */
 .contact h2, h3, h4, p{
 text-align: center;
-margin: 50px;
+}
+.contact p{
+    margin:50px
 }
 .contact{
     padding-left: 50px auto

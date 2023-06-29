@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber Quito Together</title>
+    <meta
+      name="description"
+      content="The Quito Chamber of Commerce promotes pride in our communities through active leadership, activities, promoting food and more."
+    />
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="shortcut icon" href=icon.ico>
+
+</head>
+<body>
+    <header>
+        <div class="header-grid">
+            <picture>
+                <img
+                  class="logo"
+                  src="images/logo.webp"
+                  alt="logo"
+                />
+              </picture>
+            <section id="tittle"> 
+                <h1>Quito Together</h1>
+                <h4>Chamber of Commerce!</h4>
+            </section>
+            <div id="social">
+                <a href="facebook.com" target="_blank"
+                  ><img
+                    src="../lesson10 Chamber/images/Facebook.webp"
+                    alt="facebook Logo"
+                    height="auto"
+                    width="32"
+                /></a>
+                <a href="facebook.com" target="_blank"
+                ><img
+                  src="../lesson10 Chamber/images/Instagram.webp"
+                  alt="instagram Logo"
+                  height="auto"
+                  width="32"
+              /></a>
+              </div>
+  
+        </div>
+        <nav>
+            <button id="hamButton">&#9776;</button>
+            <ul class="navigation">
+                <li><a href="chamber.html" title="Home">Home</a></li>
+                <li><a href="discover.html" title="Discover">Discover</a></li>
+                <li><a href="join.html" title="Join">Join</a></li>
+                <li><a href="directory.html" title="Directory">Directory</a></li>
+                <li><a href="contact.html" title="Contact Us">Contact Us</a></li>
+            </ul>
+        </nav>
+        <section id="time">
+            <p> Today's date: <span id="p1"></span></p>
+        </section>
+    </header>   
+    <main>
+
+    <dic class="contact">
+        <h2>Contact Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur elit. Pellentesque sodales vitae arcu id rutrum. Quisque vel dictum ipsum. Cras velit tortor, ultricies in nisi ac, sodales tempor est. Nullam non dapibus sem. Proin sollicitudin aliquam lacus, sed viverra lorem sollicitudin a. Vestibulum a nunc lectus. Phasellus nec diam sit amet tellus tempus scelerisque. Vestibulum lobortis, odio ut volutpat porta, erat mauris consectetur mauris, vitae dignissim leo sem quis metus.</p>
+
+        <h3>Office Hours:</h3>
+        <p>Monday-Friday: 8am-5pm</p>
+
+        <h3>Phone Number:</h3>
+        <p>+1(208)978-5698 / +1(208)978-5698</p>
+
+        <h3>Director Information</h3>
+        <p><strong>Camila Costales:</strong> UX Designer</p>
+        <p><strong>Martha Lopez:</strong> Manager</p>
+        <p><strong>Carlos Suarez:</strong> CEO</p>
+
+    
+        <div class="container">
+            <form>
+                <ul>
+                    <li>
+                        <label for="name"><span>Name <span class="required-star">*</span></span></label>
+                        <input type="text" id="name" name="user_name">
+                    </li>
+                    <li>
+                        <label for="mail"><span>Email <span class="required-star">*</span></span></label>
+                        <input type="email" id="mail" name="user_email">
+                    </li>
+                    <li>
+                        <label for="msg"><span>Message</span></label>
+                        <textarea rows="4" cols="50"></textarea>
+                    </li>
+                    <li>
+                        <input type="submit">
+                    </li>
+                </ul>
+            </form>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <div class="foot">
+            <section id="foot1">
+                <h4>Quito Together</h4>
+                <p>De los Guangales N1-142</p>
+                <p>Valle de los Chillos, Quito</p>
+
+            </section>
+            <section id="foot2">
+                <p>quitotogether@gmail.com</p>
+                <p>208.956.5696</p>
+                <p>La Merced - Los Chillos</p>
+                <br>
+            </section>
+            <section id="foot3">
+                <p> &copy; Quito Together Chamber • Camila Costales - WDD 230  • This page was last updated on: <span id="lastUpdateDate"></span></p>
+            </section>
+        
+        </div>
+        <script src="scripts/script.js"></script>
+        <script src="scripts/weatherapi.js"></script>
+
+    </footer>
+</body>

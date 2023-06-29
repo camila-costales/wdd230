@@ -489,3 +489,75 @@ directory page */
     font-size: .75rem;
     padding: .5rem;
 }
+
+/* Contact Page */
+.contact h2, h3, h4, p{
+text-align: center;
+margin: 10px;
+}
+.contact{
+    padding-left: 10px auto
+}
+
+
+
+
+
+label, input, textarea {
+    display: block;
+    width: 90%;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 0.3em;
+}
+span {
+    line-height: 35px;
+    line-height: 2.5rem;
+    font-size: 12px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+input[type="submit"] {
+    background: #E2856E;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    margin-top: 1.3em;
+}
+
+.container {
+    width: 80%;
+    margin: 5em auto;
+}
+form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.required-star {
+    color: #E2856E;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 9px 20px;
+    border: 1px solid #e1e2eb;
+    background-color: #fff;
+    box-sizing: border-box;
+    font-size: 1rem;
+    line-height: 29px;
+    line-height: 2rem;
+    border-radius: 3px;
+    line-height: 29px;
+    line-height: 2rem;
+}
+

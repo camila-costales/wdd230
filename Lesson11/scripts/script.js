@@ -2,6 +2,7 @@ const hamButton = document.querySelector('#hamButton');
 const navigation = document.querySelector('.navigation');
 
 
+
 hamButton.addEventListener('click', () => {
 	navigation.classList.toggle('responsive');
 });
@@ -82,4 +83,5 @@ if ("IntersectionObserver" in window) {
     loadImages(img);
   });
 }
+
 

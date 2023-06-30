@@ -1,6 +1,5 @@
 const hamButton = document.querySelector('#hamButton');
 const navigation = document.querySelector('.navigation');
-const visitsDisplay = document.querySelector(".last-visit");
 
 
 hamButton.addEventListener('click', () => {

@@ -1,5 +1,7 @@
 const requestURL = 'scripts/directory.json';
 const cards = document.querySelector('.cards');
+const visitsDisplay = document.querySelector(".last-visit");
+
 
 async function getBusinesses() {
     const response = await fetch(requestURL);

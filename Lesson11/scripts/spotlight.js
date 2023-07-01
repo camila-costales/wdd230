@@ -25,7 +25,7 @@ function displayBusinesses(business) {
     let website = document.createElement('a');
     let image = document.createElement('img');
     let memLevel = document.createElement('p');
-    let hr = document.createElement('hr');
+    // let hr = document.createElement('hr');
     
     card.setAttribute('class', 'card');
     card.setAttribute('id', `card${business.id}`)
@@ -37,7 +37,7 @@ function displayBusinesses(business) {
     image.setAttribute('loading', 'lazy');
 
 
-    hr;
+    // hr;
 
     address.textContent = business.address;
     phone.textContent = business.phone;
@@ -47,7 +47,7 @@ function displayBusinesses(business) {
 
     card.appendChild(h3);
     card.appendChild(image);
-    card.appendChild(hr);
+    // card.appendChild(hr);
     card.appendChild(memLevel);
     card.appendChild(address);
     card.appendChild(phone);

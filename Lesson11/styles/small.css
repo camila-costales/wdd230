@@ -216,7 +216,7 @@ button {
 }
 
 
-#spotlight1{
+/* #spotlight1{
     padding:15px;
     border: solid 1px #fce8e3;
     text-align: center;
@@ -239,6 +239,7 @@ button {
     margin-top: 10px;
     margin-left: 10px;
 }
+*/
 .foot{
     background-color:#8B9D83 ;
     color: black;
@@ -246,7 +247,7 @@ button {
     text-align: center;
     line-height: 17px;   
     font-size: 10px;
-}
+} 
 
 
 

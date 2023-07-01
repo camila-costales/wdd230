@@ -1,12 +1,19 @@
 const requestURL = 'scripts/directory.json';
-const cards = document.querySelector('.cards');
+const cards = document.querySelector('.section');
 
 
 async function getBusinesses() {
     const response = await fetch(requestURL);
     if(response.ok) {
-        const data = await response.json();
-        data.businesses.forEach(business => {displayBusinesses(business) });
+        let data = await response.json();
+        let filter = data.businesses.filter(business => business.membership_level == "Gold" || business.membership_level == "Silver");
+        for (let i=0; i < 3; i++){
+          var count = filter.length
+          var rand = Math.floor(Math.random() * count);
+          var business = filter.splice(rand, 1)
+          displayBusinesses(business[0])
+        }
+
     };
 };
 
@@ -34,12 +41,14 @@ function displayBusinesses(business) {
 
     address.textContent = business.address;
     phone.textContent = business.phone;
+    memLevel.textContent = business.membership_level
     website.setAttribute('href', business.website);
     website.textContent = "Website";
 
     card.appendChild(h3);
     card.appendChild(image);
     card.appendChild(hr);
+    card.appendChild(memLevel);
     card.appendChild(address);
     card.appendChild(phone);
     card.appendChild(website);
@@ -53,13 +62,4 @@ const gridButton = document.querySelector('#grid-btn');
 const listButton = document.querySelector('#list-btn');
 const display = document.querySelector('.cards');
 
-gridButton.addEventListener('click', () => {
-    display.classList.add('grid');
-    display.classList.remove('list');
-});
-
-listButton.addEventListener('click', () => {
-    display.classList.add('list');
-    display.classList.remove('grid');
-});
 

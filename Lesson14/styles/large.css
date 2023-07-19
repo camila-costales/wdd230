@@ -1,0 +1,18 @@
+@media only screen and (min-width: 55.5em) {
+
+    .card-slider {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-gap: 10px;
+}
+    .product1{
+        grid-column: 1/2;
+    }
+    .product2{
+        grid-column: 2/3;
+    }
+    .product3{
+        grid-column: 3/4;
+    }
+
+}

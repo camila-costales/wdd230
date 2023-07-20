@@ -33,147 +33,50 @@
 
 
 
-        <body>
-            <main>
-              <h2 class="form-heading">Drink Order Form</h2>
-              <form method="get" id="drinkForm">
-                <fieldset>
-                  <legend>Contact Information</legend>
-                  <label for="firstName" class="top"
-                    >First Name*
-                    <input type="text" name="firstName" id="firstName" required
-                  /></label>
-                  <label for="lastName" class="top"
-                    >Last Name
-                    <input type="text" name="lastName" id="lastName" /></label
-                  ><label for="email" class="top"
-                    >Email*
-                    <input
-                      type="email"
-                      name="email"
-                      placeholder="user@email.com"
-                      id="email"
-                      required
-                  /></label>
-                  <label for="phone" class="top"
-                    >Phone*
-                    <input
-                      type="tel"
-                      name="phone"
-                      placeholder="1235551234"
-                      id="phone"
-                      pattern="[0-9]{10}"
-                      required
-                  /></label>
+        <main>
+          <section class="hero">
+            <div class="firstcolumn">
+                <h1>Get your own special drink!</h1>
+                <p>Create your perfect drink! Choose from a wide variety of fresh fruits and ingredients to create a unique flavor that perfectly matches your vibes!</p>  
+                <p>With the ability to mix and match until you find the perfect combination, the possibilities are endless. Give it a try today and find your new favorite drink!</p>
+            </div>
+        </section>
+      
+        <section class="form">
+            <form id="drink-form">
+                <fieldset class="userInfo">
+                    <legend>Personal Information:</legend>
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name" required><br>
+      
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
+      
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required><br>
+                </fieldset>
+      
+                <fieldset id="fruits">
+                    <legend>Select Fruits:</legend>
                 </fieldset>
                 <fieldset>
-                  <legend>Drink Order</legend>
-                  <label for="ingredient1" class="top"
-                    >First Ingredient
-                    <select name="ingredient1" id="ingredient1" required>
-                      <option value="" selected disabled>Choose an ingredient</option>
-                    </select>
-                  </label>
-                  <label for="ingredient2" class="top"
-                    >Second Ingredient
-                    <select name="ingredient2" id="ingredient2">
-                      <option value="" selected disabled>Choose an ingredient</option>
-                    </select>
-                  </label>
-                  <label for="ingredient3" class="top"
-                    >Third Ingredient
-                    <select name="ingredient3" id="ingredient3">
-                      <option value="" selected disabled>Choose an ingredient</option>
-                    </select>
-                  </label>
-                  <label for="specialInstructions" class="top"
-                    >Special Instructions
-                    <textarea
-                      name="specialInstructions"
-                      id="specialInstructions"
-                      rows="5"
-                      cols="30"
-                    ></textarea>
-                  </label>
+                    <legend>Special Instructions</legend>
+                    <textarea name="userText" autocapitalize="sentences" minlength="5" cols="30" rows="10" spellcheck="false"></textarea>
                 </fieldset>
-                <input type="hidden" name="dateSubmitted" value="" id="subDate" />
-                <input
-                  type="submit"
-                  id="subButton"
-                  name="subButton"
-                  value="Order Drink"
-                  class="form-button"
-                />
-              </form>
-              <div id="drinkOrder" class="def-div">
-                <h3>Drink Order</h3>
-                <p>
-                  <strong>Date Ordered:</strong><br />
-                  <span id="drinkOrderDate"></span>
-                </p>
-                <p>
-                  <strong>First Name:</strong><br />
-                  <span id="orderFirstName"></span>
-                </p>
-                <p>
-                  <strong>Last Name:</strong><br />
-                  <span id="orderLastName"></span>
-                </p>
-                <p>
-                  <strong>Email:</strong><br />
-                  <span id="orderEmail"></span>
-                </p>
-                <p>
-                  <strong>Phone:</strong><br />
-                  <span id="orderPhone"></span>
-                </p>
-                <p>
-                  <strong>First Ingredient:</strong><br />
-                  <span id="orderIngredient1"></span>
-                </p>
-                <p>
-                  <strong>Second Ingredient:</strong><br />
-                  <span id="orderIngredient2"></span>
-                </p>
-                <p>
-                  <strong>Third Ingredient:</strong><br />
-                  <span id="orderIngredient3"></span>
-                </p>
-                <p>
-                  <strong>Special Instructions:</strong><br />
-                  <span id="orderSpecialInstructions"></span>
-                </p>
-                <p>
-                  <strong>Total Carbohydrates:</strong><br />
-                  <span id="totCarbs"></span>
-                </p>
-                <p>
-                  <strong>Total Protein:</strong><br />
-                  <span id="totProtein"></span>
-                </p>
-                <p>
-                  <strong>Total Fat:</strong><br />
-                  <span id="totFat"></span>
-                </p>
-                <p>
-                  <strong>Total Calories:</strong><br />
-                  <span id="totCalories"></span>
-                </p>
-                <p>
-                  <strong>Total Sugar:</strong><br />
-                  <span id="totSugar"></span>
-                </p>
-                <br />
-                <p>
-                  Fresh fruits can be purchased at our storefront or any of our food
-                  trucks.
-                </p>
-              </div>
-            </main>
-
-
-
-
+                <input class="submit" type="submit" value="Create your Drink">
+            </form>
+        </section>
+      
+        <section class="fruitsInfo userInfo">
+            <div id="submit-message">
+            </div>
+            <h2>Your Selection</h2>
+            <h3>Selected Fruits:</h3>
+            <ol id="selected-fruits"> 
+            </ol>
+            <p id="nutrition-summary"></p> 
+        </section>
+        </main>
 
 
         <footer>
@@ -205,5 +108,7 @@
         <script src="scripts/home.js"></script>
         <script src="scripts/weather.js"></script>
         <script src="scripts/drinksOrdered.js"></script>
-    </body>
+        <script src="scripts/fresh.js"></script>
+
+      </body>
     </html>

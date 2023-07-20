@@ -119,13 +119,6 @@ function selectedFruits() {
             <h2>Order Information</h2>
             ${orderInfo}`;
     
-        //orderCount.innerHTML = `<p>You have ordered ${numDrinks} drinks.</p>`;
-        //resetBtn.addEventListener("click", function() {
-            //localStorage.setItem("numDrinks", 0);
-            
-           //numDrinks = 0;
-
-        //});
     });
   
 }

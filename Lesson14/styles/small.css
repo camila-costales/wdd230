@@ -47,7 +47,7 @@ footer a:hover {
 .card-slider {
   max-width: 960px;
   margin: 0 auto;
-
+}
   
   .card {
     position: relative;
@@ -61,7 +61,7 @@ footer a:hover {
 
     text-decoration: none;
     color: rgba(0,0,0,.9);
-    
+    margin: 0.5rem ;
 
   }
 
@@ -79,11 +79,12 @@ footer a:hover {
 
     /** Product title */
     .card .title {
-      color: #000;
+      color: #e9be59;
       margin: 0;
       padding: 10px 10px 5px 10px;
       font-size: 16px;
       font-weight: bold;
+      text-align: center;
     }
 
       .card .title:hover {
@@ -122,10 +123,13 @@ footer a:hover {
       margin: 7px 10px 15px 10px;
       font-size: 14px;
       opacity: .8;
+      text-align: center;
     }
 
     .card .price {
       padding-left: 10px;
+      text-align: center;
+
     }
 
       .card .new-price {
@@ -145,7 +149,7 @@ footer a:hover {
       .card a:focus {
         outline: none;
       }
-    }
+    
 
 nav {
         margin: 10px auto;
@@ -220,6 +224,7 @@ nav {
     #hero-img{
     filter: grayscale(.3);
     width: 100%;
+    
     }
 
 /* Container holding the image and the text */
@@ -228,27 +233,30 @@ nav {
   }
   
   /* Bottom right text */
+  
   .text-block {
     position: absolute;
-    bottom: 40px;
+    bottom: 20px;
     right: 20px;
     left: 20px;
     background-color: #e9be59;
     color: white;
     padding:15px;
     text-align: center;
-    border-radius:10px ;
+    border-radius:30px ;
+
   }
+
   .button1{
     color: rgb(154, 105, 8);
     background-color: bisque;
     border-radius: 20px;
-    padding: 15px;
+    padding: 5px;
     border: none;
   }
+
   .but-text{
     text-decoration: none;
-
   }
 
   .discover {
@@ -268,9 +276,19 @@ img[data-src] {
     margin: 1rem 0;
     filter: blur(0em);
     transition: filter 1s;
-    border-radius: 1rem;
+    border-radius: 30px;
     transition: all .8s;
     box-shadow: 0px 0px 10px 1px rgb(70, 113, 100);;
+}
+.hero-image{
+  width: 100%;
+    height: auto;
+    margin: 1rem 0;
+    filter: blur(0em);
+    transition: filter 1s;
+    border-radius: 30px;
+    transition: all .8s;
+    box-shadow: 0px 0px 10px 1px rgb(70, 113, 100);
 }
 
 .discover section {
@@ -278,7 +296,7 @@ img[data-src] {
     padding: 1rem ;
     box-shadow: 1px 1px 10px rgb(70, 113, 100);
     background-color: white;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 .discover h2 {
@@ -294,3 +312,12 @@ img[data-src] {
 }
 
  
+  .text-block h2 {
+    font-size: 15px;
+    margin: 3px auto
+  }
+
+  .text-block button {
+    font-size: 8px;
+    padding: 1px 8px;
+  }

@@ -335,3 +335,74 @@ img[data-src] {
   .weather-section{
     text-align: center;
   }
+
+  /* fresh page */
+
+  /* Styling for required input fields */
+input:required {
+  border-left: 6px solid rgb(217, 14, 14);
+}
+
+/* Styling for submit button on hover */
+.submit:hover {
+  background-color: #f7ae41;
+  transform: scale(1.1);
+  border: none;
+  color: white;
+}
+
+/* Common styling for form inputs and checkboxes */
+form input,
+input[type="checkbox"] {
+  display: block; /* Changed from "float" to "block" for proper layout */
+  padding: 10px;
+  margin: 15px;
+}
+
+/* Styling for textarea */
+textarea {
+  width: 100%;
+  background-color: #ffffffbf;
+}
+
+/* Styling for user info section */
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  background-size: auto;
+}
+
+.userInfo input {
+  height: 2rem;
+}
+
+/* Styling for fruits section */
+.fruits div {
+  display: flex;
+  align-items: center;
+}
+
+/* Styling for submit button */
+.submit {
+  padding: 0.5rem;
+  border-radius: 10px;
+  width: 80%;
+  margin: 0.5rem auto;
+  display: block;
+}
+
+/* Styling for fruits info section */
+.fruitsInfo {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.fruitsInfo ol,
+.fruitsInfo h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.fruitsInfo ol li {
+  list-style-position: inside;
+}

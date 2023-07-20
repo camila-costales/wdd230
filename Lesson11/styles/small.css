@@ -134,13 +134,13 @@ button {
 #hero-div {
     background: #fce8e3;
     position: relative;
-    height: 200px;
+    
     margin-bottom: 10px;
 }
  #hero-div img {
     object-fit: cover;
     overflow: hidden;
-    height: 200px;
+    height: auto;
     width: 100%;
 }
 
@@ -151,10 +151,10 @@ button {
 }
 .mainheader{
     position: absolute;
-    bottom: 80px;
+    bottom: 50px;
     left: 20px;
-    color: white;
-    font-size: 40px;
+    color: black;
+    font-size: 30px;
     text-align: left;
     padding: 5px;
     border-radius: 5px;

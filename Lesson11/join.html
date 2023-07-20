@@ -76,23 +76,10 @@
 
         <fieldset>
           <legend><h3>Business Information</h3></legend>
-          <label for="biz-title" class="top"
-            >Business Position/Title
-            <input
-              type="text"
-              name="biz-title"
-              pattern="[A-Za-z- ]"
-              placeholder="i.e. CEO"
-              minlength="7"
-          /></label>
-          <label for="biz-name" class="top"
-            >Business Name*
-            <input
-              type="text"
-              name="biz-name"
-              placeholder="Company Name"
-              required
-          /></label>
+          <label class="top">Position Title <input type="text" id="jobtitle" name="position" pattern="[A-Za-z\-, ]{7,}" title="Alpha characters, hyphens, and spaces min seven characters"></label>
+
+          <label class="top">Business Name* <abbr title="This field is mandatory" aria-label="required"><input type="text" name="bname" required></abbr></label>
+
           <label for="biz=desc" class="top"
             >Business description
             <textarea

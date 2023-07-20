@@ -1,5 +1,7 @@
-* { box-sizing: border-box; }
 
+*::content{
+    margin: 0px;
+}
 /* footer */
 
 footer {
@@ -53,12 +55,13 @@ footer a:hover {
     flex-direction: column;
     height: 250px;
 
-    border-radius: 3px;
+    border-radius: 30px;
     border: 1px solid rgba(0,0,0,.2);
     background-color: white;
 
     text-decoration: none;
     color: rgba(0,0,0,.9);
+    
 
   }
 
@@ -106,6 +109,7 @@ footer a:hover {
         height: 100%;
         object-fit: cover;
         filter: grayscale(.5);
+        border-radius: 30px;
         transition: all .3s ease-in-out;
       }
 
@@ -150,13 +154,14 @@ nav {
     /* small view navigation */
     #hamButton {
         display: block;
-        top: 10px;
-        right: 10px;
+        top: 15px;
+        right: 15px;
         width: fit-content;
         font-size: 1.5rem;
-        padding: .5rem;
-        color: black;
+        padding: .70rem;
+        color: #67B5A7;
         margin: 0 auto;
+        position:absolute
     }
     .navigation {
         display: flex;
@@ -175,7 +180,7 @@ nav {
         color: black;
     }
     .navigation li a:hover {
-        background-color: rgb(110, 135, 127);
+        background-color: rgb(70, 113, 100);
         color: #ffffff;
         font-weight: 700;
     }
@@ -208,7 +213,84 @@ nav {
             flex: 1 1 auto;
         }
     }
+    #hero-msg{
+        position: absolute;
+    }
 
+    #hero-img{
+    filter: grayscale(.3);
+    width: 100%;
+    }
 
+/* Container holding the image and the text */
+.container {
+    position: relative;
+  }
+  
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+    left: 20px;
+    background-color: #e9be59;
+    color: white;
+    padding:15px;
+    text-align: center;
+    border-radius:10px ;
+  }
+  .button1{
+    color: rgb(154, 105, 8);
+    background-color: bisque;
+    border-radius: 20px;
+    padding: 15px;
+    border: none;
+  }
+  .but-text{
+    text-decoration: none;
 
+  }
 
+  .discover {
+    display: flex;
+    flex-direction: column;
+}
+
+img[data-src] {
+    min-width: 50px;
+    min-height: 50px;
+    filter: blur(0.2em);
+}
+
+.dis-image {
+    width: 100%;
+    height: auto;
+    margin: 1rem 0;
+    filter: blur(0em);
+    transition: filter 1s;
+    border-radius: 1rem;
+    transition: all .8s;
+    box-shadow: 0px 0px 10px 1px rgb(70, 113, 100);;
+}
+
+.discover section {
+    margin: 1rem ;
+    padding: 1rem ;
+    box-shadow: 1px 1px 10px rgb(70, 113, 100);
+    background-color: white;
+    border-radius: 10px;
+}
+
+.discover h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.discover h3 {
+    text-align: center;
+}
+.demographic{
+    margin: 0 auto;
+}
+
+ 

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bountiful Foods | Home </title>
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <style>
+        body{
+            background-color:#C5DAD3;
+        }
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <div id="content">
+        <header>
+
+
+            <nav>
+                <button id="hamButton">&#9776;</button>
+                <ul class="navigation">
+                    <a href="home.html" target="_blank"><img src="images/logo.webp" alt=" Logo" height="50" width="auto"  /></a>
+                    <li><a href="home.html" title="Home">Home</a></li>
+                    <li><a href="fresh.html" title="Fresh">Fresh</a></li>
+                    <li><a href="about.html" title="About Us">About Us</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+
+        <body>
+            <main>
+              <h2 class="form-heading">Drink Order Form</h2>
+              <form method="get" id="drinkForm">
+                <fieldset>
+                  <legend>Contact Information</legend>
+                  <label for="firstName" class="top"
+                    >First Name*
+                    <input type="text" name="firstName" id="firstName" required
+                  /></label>
+                  <label for="lastName" class="top"
+                    >Last Name
+                    <input type="text" name="lastName" id="lastName" /></label
+                  ><label for="email" class="top"
+                    >Email*
+                    <input
+                      type="email"
+                      name="email"
+                      placeholder="user@email.com"
+                      id="email"
+                      required
+                  /></label>
+                  <label for="phone" class="top"
+                    >Phone*
+                    <input
+                      type="tel"
+                      name="phone"
+                      placeholder="1235551234"
+                      id="phone"
+                      pattern="[0-9]{10}"
+                      required
+                  /></label>
+                </fieldset>
+                <fieldset>
+                  <legend>Drink Order</legend>
+                  <label for="ingredient1" class="top"
+                    >First Ingredient
+                    <select name="ingredient1" id="ingredient1" required>
+                      <option value="" selected disabled>Choose an ingredient</option>
+                    </select>
+                  </label>
+                  <label for="ingredient2" class="top"
+                    >Second Ingredient
+                    <select name="ingredient2" id="ingredient2">
+                      <option value="" selected disabled>Choose an ingredient</option>
+                    </select>
+                  </label>
+                  <label for="ingredient3" class="top"
+                    >Third Ingredient
+                    <select name="ingredient3" id="ingredient3">
+                      <option value="" selected disabled>Choose an ingredient</option>
+                    </select>
+                  </label>
+                  <label for="specialInstructions" class="top"
+                    >Special Instructions
+                    <textarea
+                      name="specialInstructions"
+                      id="specialInstructions"
+                      rows="5"
+                      cols="30"
+                    ></textarea>
+                  </label>
+                </fieldset>
+                <input type="hidden" name="dateSubmitted" value="" id="subDate" />
+                <input
+                  type="submit"
+                  id="subButton"
+                  name="subButton"
+                  value="Order Drink"
+                  class="form-button"
+                />
+              </form>
+              <div id="drinkOrder" class="def-div">
+                <h3>Drink Order</h3>
+                <p>
+                  <strong>Date Ordered:</strong><br />
+                  <span id="drinkOrderDate"></span>
+                </p>
+                <p>
+                  <strong>First Name:</strong><br />
+                  <span id="orderFirstName"></span>
+                </p>
+                <p>
+                  <strong>Last Name:</strong><br />
+                  <span id="orderLastName"></span>
+                </p>
+                <p>
+                  <strong>Email:</strong><br />
+                  <span id="orderEmail"></span>
+                </p>
+                <p>
+                  <strong>Phone:</strong><br />
+                  <span id="orderPhone"></span>
+                </p>
+                <p>
+                  <strong>First Ingredient:</strong><br />
+                  <span id="orderIngredient1"></span>
+                </p>
+                <p>
+                  <strong>Second Ingredient:</strong><br />
+                  <span id="orderIngredient2"></span>
+                </p>
+                <p>
+                  <strong>Third Ingredient:</strong><br />
+                  <span id="orderIngredient3"></span>
+                </p>
+                <p>
+                  <strong>Special Instructions:</strong><br />
+                  <span id="orderSpecialInstructions"></span>
+                </p>
+                <p>
+                  <strong>Total Carbohydrates:</strong><br />
+                  <span id="totCarbs"></span>
+                </p>
+                <p>
+                  <strong>Total Protein:</strong><br />
+                  <span id="totProtein"></span>
+                </p>
+                <p>
+                  <strong>Total Fat:</strong><br />
+                  <span id="totFat"></span>
+                </p>
+                <p>
+                  <strong>Total Calories:</strong><br />
+                  <span id="totCalories"></span>
+                </p>
+                <p>
+                  <strong>Total Sugar:</strong><br />
+                  <span id="totSugar"></span>
+                </p>
+                <br />
+                <p>
+                  Fresh fruits can be purchased at our storefront or any of our food
+                  trucks.
+                </p>
+              </div>
+            </main>
+
+
+
+
+
+
+        <footer>
+            <p>Bountiful Food &copy; 2023 - Camila Costales</p>
+            <p><a target="_blank"  href="home.html">Home</a></p>
+            <p><a target="_blank" href="fresh.html" >Fresh</a></p>
+            <p><a target="_blank" href="about.html" >Us</a></p>
+            <div class="social">
+                <a target="_blank" href="https://facebook.com">
+                    <img src="images/Facebook.webp" alt="fb icon" width="30">
+                </a>
+                <a target="_blank" href="https://instagram.com">
+                    <img src="images/instagram.webp" alt="instagram icon"  width="30">
+                </a>
+                <a target="_blank" href="https://whatsapp.com">
+                    <img src="images/twi.webp" alt="whatsapp icon"  width="30">
+                </a>
+            </div>
+            <p class="footer-details">
+                <span class="currentYear"></span> Bountiful Foods 
+                <span class="lastModif"></span> | Weather Data provided by
+                <a href="https://openweathermap.org/" target="_blank">OpenWeather</a>
+                | <a href="references.html" target="_blank">References</a>
+                
+                <p class="footer-loc">
+                    <a href="https://www.google.com/maps/place/California/@37.2691675,-119.306607,6z/data=!3m1!4b1!4m6!3m5!1s0x808fb9fe5f285e3d:0x8b5109a227086f55!8m2!3d36.778261!4d-119.4179324!16zL20vMDFuN3E?entry=ttu" target="_blank"
+                      > <i class="material-icons">map </i> Location Map</a
+                    >
+                  </p>
+              </p>
+            </main>
+        </footer>
+    
+        <script src="scripts/home.js"></script>
+        <script src="scripts/weather.js"></script>
+        <script src="scripts/drinksOrdered.js"></script>
+    </body>
+    </html>

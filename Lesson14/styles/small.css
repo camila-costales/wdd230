@@ -10,7 +10,6 @@ footer {
     font-family: var(--paragraph-font);
     font-size: 1em;
     padding: 25px 50px;
-    margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -244,14 +243,13 @@ nav {
     padding:15px;
     text-align: center;
     border-radius:30px ;
-
   }
 
   .button1{
     color: rgb(154, 105, 8);
     background-color: bisque;
     border-radius: 20px;
-    padding: 5px;
+    padding: 15px;
     border: none;
   }
 
@@ -313,11 +311,11 @@ img[data-src] {
 
  
   .text-block h2 {
-    font-size: 15px;
-    margin: 3px auto
+    font-size: 20px;
+    margin: 15px auto
   }
 
   .text-block button {
-    font-size: 8px;
-    padding: 1px 8px;
+    font-size: 13px;
+    padding: 2px 8px;
   }

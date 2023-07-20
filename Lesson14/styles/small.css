@@ -31,6 +31,9 @@ footer a{
 footer a:hover {
     color: white;
 }
+.home-tittle{
+  text-align: center;
+}
 
 
 
@@ -323,4 +326,12 @@ img[data-src] {
   .submit{
     margin-top: 10px;
     
+  }
+
+  .order-section{
+    text-align: center;
+  }
+
+  .weather-section{
+    text-align: center;
   }

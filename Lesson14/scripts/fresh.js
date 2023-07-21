@@ -102,8 +102,62 @@ document.addEventListener('DOMContentLoaded', () => {
   orderForm.addEventListener('submit', function(event) {
       event.preventDefault(); // Prevent form submission to a new page
       calculateTotalNutrients(); // Calculate and display the order summary
+      numDrinks++;
+      localStorage.setItem("drinks-ls", numDrinks);
   });
 });
+
+
+
+
+
+
+
+
+  
+//   // Add event listener for form submission
+//   const orderForm = document.getElementById('drink-form');
+//   orderForm.addEventListener('submit', function(event) {
+//       event.preventDefault(); // Prevent form submission to a new page
+//       calculateTotalNutrients(); // Calculate and display the order summary
+//   });
+// ;
+
+
+// const form = document.getElementById('drink-form');
+//     const messageDiv = document.getElementById('submit-message');
+//     const orderCount = document.getElementById('order-count');
+//     let numDrinks = Number(window.localStorage.getItem("drinks-ls")) || 0;
+//     form.addEventListener('submit', function(event) {
+//         event.preventDefault();
+
+        
+//         numDrinks++;
+//         localStorage.setItem("drinks-ls", numDrinks);
+
+//         const firstName = document.getElementById('first-name').value;
+//         const email = document.getElementById('email').value;
+//         const phone = document.getElementById('phone').value;
+//         const fruits = document.querySelectorAll('#fruits input[type="checkbox"]:checked');
+//         const instructions = document.querySelector('textarea[name="userText"]').value;
+
+//         const orderInfo = `
+//             <p>Your drink has been ordered. You will receive an email confirmation shortly.</p>
+//             <p><strong>First Name:</strong> ${firstName}</p>
+//             <p><strong>Email:</strong> ${email}</p>
+//             <p><strong>Phone Number:</strong> ${phone}</p>
+//             <p><strong>Selected Fruits:</strong> ${Array.from(fruits).map(fruit => fruit.value).join(', ')}</p>
+//             <p><strong>Special Instructions:</strong> ${instructions}</p>
+//             <p><strong>Order Date:</strong> ${new Date().toLocaleDateString()}</p>`;
+
+//         messageDiv.style.display = 'block';
+//         messageDiv.innerHTML = `
+//             <h2>Order Information</h2>
+//             ${orderInfo}`;
+    
+//     });
+  
+
 
 
 

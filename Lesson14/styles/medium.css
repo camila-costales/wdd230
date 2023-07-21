@@ -31,8 +31,8 @@
     
       
       .button1{
-        color: rgb(154, 105, 8);
-        background-color: bisque;
+        color: black;
+        background-color: rgb(255, 255, 255);
         border-radius: 20px;
         padding: 15px;
         border: none;
@@ -50,7 +50,7 @@
         padding-top: 1px;
         color: #000000;
         justify-content: center;
-        font-family: var(--paragraph-font);
+        font-family: "Trirong";
         
       }
       #contenedor > div {

@@ -8,9 +8,17 @@
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia|Trirong">
+
+
+</style>
     <style>
         body{
             background-color:#C5DAD3;
+            font-family: "Sofia", sans-serif;
+        }
+        p{
+          font-family: "Trirong", Georgia, 'Times New Roman', Times, serif;
         }
     </style>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -29,7 +37,10 @@
                     <li><a href="about.html" title="About Us">About Us</a></li>
                 </ul>
             </nav>
+
+
         </header>
+
 
 
 
@@ -46,10 +57,6 @@
                     <legend><h4>Your Information:</h4></legend>
                     <label for="first-name">Name:</label>
                     <input type="text" id="first-name" name="first-name" required><br>
-                    
-                    <label for="location">Address:</label>
-                    <input type="text" id="Address" name="address"><br>
-      
 
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required><br>
@@ -58,9 +65,29 @@
                     <input type="tel" id="phone" name="phone" required><br>
                 </fieldset>
       
-                <fieldset id="fruits">
-                    <legend><h4>Select Fruits:</h4></legend>
+                <fieldset>
+                    <legend><h4>Select Fruits for Your Drink:</h4></legend>
+
+                        <!-- Select element for the first fruit -->
+                        <select id="fruit1">
+                            <option value="">Select Fruit 1</option>
+                        </select>
+
+                        <!-- Select element for the second fruit -->
+                        <select id="fruit2">
+                            <option value="">Select Fruit 2</option>
+                        </select>
+
+                        <!-- Select element for the third fruit -->
+                        <select id="fruit3">
+                            <option value="">Select Fruit 3</option>
+                        </select>
                 </fieldset>
+
+
+
+
+                
                 <fieldset>
                     <legend><h4>More Instructions:</h4></legend>
                     <textarea name="userText" autocapitalize="sentences" minlength="5" cols="30" rows="10" spellcheck="false"></textarea>
@@ -74,14 +101,28 @@
                 <section class="about-section">
                     <div id="submit-message">
                     </div>
-                    <h2>Your Order</h2>
-                    <h3>The Fruits you chose:</h3>
+
                     <ol id="selected-fruits"> 
                     </ol>
                     <p id="nutrition-summary"></p> 
                 </section>
             
         </section>
+
+
+
+
+
+
+        
+        
+
+
+
+
+
+
+        
         </main>
 
 

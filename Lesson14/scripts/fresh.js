@@ -100,6 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Add event listener for form submission
   const orderForm = document.getElementById('drink-form');
   orderForm.addEventListener('submit', function(event) {
+      let numDrinks = Number(window.localStorage.getItem("drinks-ls")) || 0;
       event.preventDefault(); // Prevent form submission to a new page
       calculateTotalNutrients(); // Calculate and display the order summary
       numDrinks++;
